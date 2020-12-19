@@ -1,0 +1,7 @@
+id: ans
+name: Example Mod
+version: 1.0
+author: me
+description: An example mod
+dll: mod.dll
+api_version: 1

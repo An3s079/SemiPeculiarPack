@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build;CopyMod" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B53354EE-7956-4B26-9B8D-F7D284ED289E}</ProjectGuid>
+    <UseMSBuildEngine>true</UseMSBuildEngine>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SemiModTemplate</RootNamespace>
+    <AssemblyName>SemiModTemplate</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="src\BookofNecromancy.cs" />
+    <Compile Include="src\CleansingWater.cs" />
+    <Compile Include="src\CodeToolBox.cs" />
+    <Compile Include="src\CoolerHeart.cs" />
+    <Compile Include="src\FearBullets.cs" />
+    <Compile Include="src\LeatherJacket.cs" />
+    <Compile Include="src\LichBullets.cs" />
+    <Compile Include="src\Miasma.cs" />
+    <Compile Include="src\myItem.cs" />
+    <Compile Include="src\OldWarStealthKit.cs" />
+    <Compile Include="src\PortableVampire.cs" />
+    <Compile Include="src\RubberBullets.cs" />
+    <Compile Include="src\SemiPeculiarPack.cs" />
+    <Compile Include="src\SpecialBlankModificationItem.cs" />
+    <Compile Include="src\TentacleRounds.cs" />
+    <Compile Include="src\ThreateningAura.cs" />
+    <Compile Include="src\Velocity.cs" />
+    <Compile Include="src\WaterAmmolet.cs" />
+    <Compile Include="src\Ygdar_Orus_Li_Ox.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>libs\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp.SemiLoader.mm">
+      <HintPath>libs\Assembly-CSharp.SemiLoader.mm.dll</HintPath>
+    </Reference>
+    <Reference Include="Logger">
+      <HintPath>libs\Logger.dll</HintPath>
+    </Reference>
+    <Reference Include="MMHOOK_Assembly-CSharp">
+      <HintPath>libs\MMHOOK_Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.RuntimeDetour, Version=18.9.0.42435, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\MonoMod.RuntimeDetour.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.Utils, Version=18.9.0.42433, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\MonoMod.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="Semi.Bridge">
+      <HintPath>libs\Semi.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>libs\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>libs\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>libs\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>libs\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>libs\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>libs\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>libs\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>libs\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>libs\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mod\mod.yml" />
+    <None Include="obj\Debug\SemiModTemplate.csprojAssemblyReference.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="libs\Assembly-CSharp.dll" />
+    <Content Include="libs\Assembly-CSharp.SemiLoader.mm.dll" />
+    <Content Include="libs\Logger.dll" />
+    <Content Include="libs\MMHOOK_Assembly-CSharp.dll" />
+    <Content Include="libs\Semi.Bridge.dll" />
+    <Content Include="libs\UnityEngine.AudioModule.dll" />
+    <Content Include="libs\UnityEngine.CoreModule.dll" />
+    <Content Include="libs\UnityEngine.dll" />
+    <Content Include="libs\UnityEngine.IMGUIModule.dll" />
+    <Content Include="libs\UnityEngine.TextRenderingModule.dll" />
+    <Content Include="libs\UnityEngine.UIModule.dll" />
+    <Content Include="libs\UnityEngine.UnityWebRequestAudioModule.dll" />
+    <Content Include="libs\UnityEngine.UnityWebRequestModule.dll" />
+    <Content Include="libs\UnityEngine.UnityWebRequestWWWModule.dll" />
+    <Content Include="mod\mod.dll" />
+    <Content Include="mod\resources\hello.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Target Name="CopyMod">
+    <Copy SourceFiles="$(TargetPath)" DestinationFiles="$(SolutionDir)\mod\mod.dll" />
+  </Target>
+</Project>

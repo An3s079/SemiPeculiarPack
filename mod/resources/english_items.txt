@@ -1,0 +1,112 @@
+#MY_ITEM_NAME
+My Item
+#MY_ITEM_SHORT_DESC
+Very Cool Item
+#MY_ITEM_LONG_DESC
+This Item Is Very Cool
+Yes
+#CoolerHeartName
+Cooler Heart Container
+#CoolerHeartShortDesc
+thank you very cool
+#CoolerHeartLongDesc
+This Item Is Very Cool.
+why wont it work tho ;-;
+#AuraName
+Threatening Aura
+#AuraShortDesc
+Make Them Run.
+#AuraLongDesc
+This Item Is Very Cool
+why wont it work tho ;-;
+#WaterAmmoletName
+Water Ammolet
+#WaterAmmoletShortDesc
+Why tho?
+#WaterAmmoletLongDesc
+This Item Is Very Cool
+why wont it work tho ;-;
+#CleansingName
+Cleansing Water
+#CleansingShortDesc
+holy
+#CleansingLongDesc
+This Item Is Very Cool
+why wont it work tho ;-;
+#FearBulletsName
+Fear Bullets
+#FearBulletsShortDesc
+make them run. v2 :)
+#FearBulletsLongDesc
+This Item Is Very Cool
+why wont it work tho ;-;
+#JacketName
+Leather Jacket
+#JacketShortDesc
+plain.
+#JacketLongDesc
+This Item Is (not) Very Cool
+why wont it work tho ;-;
+#LichBulletsName
+Lich Bullets
+#LichBulletsShortDesc
+gives yiou strength
+#LichBuletsLongDesc
+This Item Is Very Cool
+why wont it work tho ;-;
+#MiasmaName
+Miasma
+#MiasmaShortDesc
+*Cough*
+#MiasmaLongDesc
+This Item Is Very Cool
+why wont it work tho ;-;
+#StealthkitName
+Old War Stealthkit
+#StealthkitShortDesc
+i am speed :)
+#StealthkitLongDesc
+This Item Is Very Cool
+why wont it work tho ;-;
+#VampireName
+Portable Vampire
+#VampireShortDesc
+munch
+#VampireLongDesc
+This Item Is Very Cool
+why wont it work tho ;-;
+#NecromancyName
+Book of Necromancy
+#NecromancyShortDesc
+raise the dead
+#NecromancyLongDesc
+This Item Is Very Cool
+why wont it work tho ;-;
+#RubberBulletsName
+Rubber Bullets
+#RubberBulletsShortDesc
+they bounce
+#RubberBulletsLongDesc
+This Item Is Very Cool
+why wont it work tho ;-;
+#TentaclesName
+Tentacle Rounds
+#TentaclesShortDesc
+monster from the depth.
+#TentaclesLongDesc
+This Item Is Very Cool
+why wont it work tho ;-;
+#VelocityName
+Velocity
+#VelocityShortDesc
+zoom!
+#VelocityLongDesc
+This Item Is Very Cool
+why wont it work tho ;-;
+#YgdarName
+Ygdar Orus Li Ox
+#YgdarShortDesc
+idk
+#YgdarLongDesc
+This Item Is Very Cool
+why wont it work tho ;-;
